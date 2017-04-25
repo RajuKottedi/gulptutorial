@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "target": "es5"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": ["./node_modules/**/*"],
+  "compileOnSave": true
+}
