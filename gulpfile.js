@@ -5,6 +5,11 @@
  del = require("del"),
  config = require("./gulp.config");
 
+ gulp.task("watch", function(){
+    gulp.watch(config.rootPath+"/*.js", ["compileTs"]);
+    gulp.watch(config.rootPath+"/*.scss", ["sass"]);
+ });
+
 gulp.task("sass", function(){
     return gulp.src(config.rootPath+"/*.scss")
     .pipe($.sass().on("error", $.sass.logError))
