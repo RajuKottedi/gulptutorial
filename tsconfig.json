@@ -6,10 +6,11 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,
-    "target": "es5"
+    "target": "es5",
+    "outFile": "dest/app.js"
   },
   "include": [
-    "./src/**/*.ts"
+    "**/*.ts"
   ],
   "exclude": ["./node_modules/**/*"],
   "compileOnSave": true

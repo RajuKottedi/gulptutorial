@@ -1,8 +1,8 @@
- class sample{
+ class main{
     constructor(){
 
     }
     sample(){
-        alert("sample");
+        alert("main");
     }
 }

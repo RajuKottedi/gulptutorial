@@ -1,2 +1,11 @@
 # Node Modules
 /node_modules
+
+# Js & sourcemaps
+**/*.js
+**/*.js.map
+
+# dist & dest
+
+**/dist
+**/dest
