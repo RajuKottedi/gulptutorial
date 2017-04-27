@@ -2,7 +2,7 @@
 /node_modules
 
 # Js & sourcemaps
-**/*.js
+# **/*.js
 **/*.js.map
 
 # dist & dest
