@@ -7,5 +7,5 @@
 
 # dist & dest
 
-**/dist
-**/dest
+**/dist/*.*
+**/dest/*.*
