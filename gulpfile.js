@@ -6,7 +6,7 @@
  config = require("./gulp.config");
 
  gulp.task("watch", function(){
-    gulp.watch(config.rootPath+"/*.js", ["compileTs"]);
+    gulp.watch(config.rootPath+"/*.ts", ["compileTs"]);
     gulp.watch(config.rootPath+"/*.scss", ["sass"]);
  });
 
